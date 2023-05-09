@@ -286,7 +286,7 @@ Log1p = to_ivy_arrays_and_back(map_raw_ops_alias(tf_frontend.math.log1p))
 LogicalOr = to_ivy_arrays_and_back(map_raw_ops_alias(tf_frontend.math.logical_or))
 
 
-LogicalAnd = to_ivy_arrays_and_back(map_raw_ops_alias(tf_frontend.math.logical_and))
+#LogicalAnd = to_ivy_arrays_and_back(map_raw_ops_alias(tf_frontend.math.logical_and))
 
 
 @to_ivy_arrays_and_back
